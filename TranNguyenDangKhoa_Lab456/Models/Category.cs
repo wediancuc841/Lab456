@@ -7,7 +7,7 @@ namespace TranNguyenDangKhoa_Lab456.Models
     {
         public byte Id { get; set; }
         [require]
-        [StringLeng th(255)]
+        [StringLength(255)]
         public string Name { get; set; }
     }
 }
