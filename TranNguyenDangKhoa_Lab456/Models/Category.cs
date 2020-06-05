@@ -9,5 +9,6 @@ namespace TranNguyenDangKhoa_Lab456.Models
         [require]
         [StringLength(255)]
         public string Name { get; set; }
+        //:v
     }
 }
